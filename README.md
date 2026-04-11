@@ -47,7 +47,7 @@ sentiment-analysis-platform/
 ├── __pycache__/             # Python cache (ignored)
 ⚙️ Installation & Setup
 1️⃣ Clone the repository
-git clone https://github.com/your-username/sentiment-analysis-platform.git
+git clone https://github.com/priyalrajpurohit/Sentimental_Analysis/tree/main
 cd sentiment-analysis-platform
 2️⃣ Create virtual environment
 python -m venv .venv
