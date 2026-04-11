@@ -26,6 +26,8 @@ Visualization: Plotly, Matplotlib
 NLP: NLTK (VADER Sentiment)
 APIs & Scraping: NewsAPI, Nitter Scraper, Reddit API
 Environment: Virtual Environment (.venv)
+
+
 📂 Project Structure
 sentiment-analysis-platform/
 │
@@ -45,6 +47,8 @@ sentiment-analysis-platform/
 │
 ├── venv/ or .venv/          # Virtual environment (ignored)
 ├── __pycache__/             # Python cache (ignored)
+
+
 ⚙️ Installation & Setup
 1️⃣ Clone the repository
 git clone https://github.com/priyalrajpurohit/Sentimental_Analysis/tree/main
