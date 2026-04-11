@@ -1,0 +1,11 @@
+# requirements.txt file
+tweepy
+python-dotenv
+vaderSentiment
+nltk
+streamlit
+plotly
+pandas
+
+wordcloud
+matplotlib

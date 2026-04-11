@@ -1,0 +1,6 @@
+# .gitignore file
+venv/
+.env
+__pycache__/
+google-api-python-client
+google-auth-oauthlib

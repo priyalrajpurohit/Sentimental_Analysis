@@ -1,0 +1,16 @@
+[theme]
+# 1. Main Area: A very soft, premium blue-grey (Not White!)
+backgroundColor = "#cfcfcfc2"
+
+# 2. Sidebar: A darker grey so it looks distinct from the main area
+secondaryBackgroundColor = "#87a0baff"
+
+# 3. Text: Dark Navy/Black so it pops on both backgrounds
+textColor = "#262730"
+
+# 4. Buttons: A professional blue to stand out
+primaryColor = "#577da1ff"
+
+font = "sans serif"
+[client]
+toolbarMode = "developer"
