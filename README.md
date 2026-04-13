@@ -1,25 +1,25 @@
-📊 AI-Powered Sentiment Analysis Platform (TrendSense)
+ AI-Powered Sentiment Analysis Platform (TrendSense)
 
 A comprehensive multi-source sentiment analysis platform that collects, analyzes, and visualizes public opinion from platforms like Twitter, Reddit, YouTube, and News APIs. Built with Python and Streamlit, this tool provides real-time insights, historical trends, and crisis detection using NLP techniques.
 
-🚀 Features
-🔍 Multi-Source Data Collection
+1. Features
+Multi-Source Data Collection
 Twitter (via Nitter scraping)
 Reddit discussions
 YouTube comments
 News articles (NewsAPI)
-🧠 Sentiment Analysis
+Sentiment Analysis
 VADER-based sentiment scoring
 Classifies text into Positive, Negative, Neutral
-📊 Interactive Dashboard
+2. Interactive Dashboard
 Real-time sentiment visualization
 Historical trend analysis
 Plotly-powered charts
-☁️ Word Cloud Generation
+ Word Cloud Generation
 Highlights frequently used keywords
-🚨 Crisis Detection
+Crisis Detection
 Detects spikes in negative sentiment
-🛠️ Tech Stack
+3. Tech Stack
 Frontend: Streamlit
 Backend: Python
 Visualization: Plotly, Matplotlib
@@ -28,7 +28,7 @@ APIs & Scraping: NewsAPI, Nitter Scraper, Reddit API
 Environment: Virtual Environment (.venv)
 
 
-📂 Project Structure
+4. Project Structure
 sentiment-analysis-platform/
 │
 ├── Home.py                  # Main Streamlit app entry point
@@ -50,49 +50,39 @@ sentiment-analysis-platform/
 
 
 ⚙️ Installation & Setup
-1️⃣ Clone the repository
+1️ Clone the repository
 git clone https://github.com/priyalrajpurohit/Sentimental_Analysis/tree/main
 cd sentiment-analysis-platform
-2️⃣ Create virtual environment
+2️ Create virtual environment
 python -m venv .venv
-3️⃣ Activate environment
-
+3️ Activate environment
 Windows:
-
 .\.venv\Scripts\Activate
-
 Mac/Linux:
-
 source .venv/bin/activate
-4️⃣ Install dependencies
+4️ Install dependencies
 pip install -r requirements.txt
-5️⃣ Run the app
+5️ Run the app
 python -m streamlit run Home.py
-🔑 API Keys Required
+ API Keys Required
 NewsAPI
 Get API key: https://newsapi.org/
 (Optional) Reddit / YouTube APIs if extended
-
 Store keys in a .env file:
-
 NEWS_API_KEY=your_api_key_here
-📈 Use Cases
+Use Cases
 Brand reputation monitoring
 Social media sentiment tracking
 Crisis detection systems
 Market research & public opinion analysis
-⚠️ Limitations
+ Limitations
 Nitter-based Twitter scraping may be unstable
 External APIs may have rate limits
 Requires internet connection for data fetching
-👨‍💻 Author
-
+Author
 Developed as an AI/ML project for real-time sentiment intelligence and analytics.
-
-⭐ Contributing
-
+Contributing
 Contributions are welcome! Feel free to fork the repo and submit a pull request.
 
-📜 License
-
+📜License
 This project is for educational and research purposes.
